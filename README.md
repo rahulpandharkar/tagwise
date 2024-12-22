@@ -69,7 +69,7 @@ The wiring diagram for connecting the **RC522 RFID module** to the **Arduino UNO
 
 ## Hardware Setup
 
-Here’s the diagram showing how to connect the **RC522 RFID module** to the **Arduino UNO**:
+This is how it looks after connecting the RFID Modules to the Arduino.
 
 ![Hardware Setup](Pictures/hardware_setup.jpg)
 
