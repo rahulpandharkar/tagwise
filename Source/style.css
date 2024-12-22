@@ -1,0 +1,114 @@
+/* Color scheme */
+:root {
+    --background-color: #DDD0C8;
+    --element-color: #323232;
+}
+
+/* Reset some default styles */
+body, h1, h2, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply the color scheme */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color); /* Background color */
+}
+
+header {
+    background-color: var(--element-color); /* Header background color */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-container {
+    background-color: rgb(163, 155, 155);/* Search container background color */
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: var(--element-color); /* Button background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.container-details {
+	font-size: 14px;
+    background-color: rgb(163, 155, 155);/* Search container background color */
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+	display:none;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: var(--element-color); /* Footer button background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+button:hover {
+    background-color: #DDD0C8;
+    color:#000;
+  }
+
+.logo {
+     position: absolute;
+     top: 0%;
+     left: 28%;
+     height: 15px; 
+     width: 15px; 
+}
+img {
+    height: 77px; 
+    width: 77px; 
+}
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #000;
+	Color:#fff;
+}
