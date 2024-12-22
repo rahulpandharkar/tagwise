@@ -39,17 +39,17 @@ This is a college project that integrates hardware components such as the Arduin
    Download or clone the repository to your local system.
 
 2. **Install Python Requirements**  
-   Install the necessary Python dependencies as mentioned in the project documentation.
+   Install the necessary Python dependencies as mentioned in the project documentation by **`pip install -r requirements.txt`** 
 
 3. **Install Node.js Requirements**  
-   Install the necessary Node.js dependencies as mentioned in the project documentation.
+   Install the necessary Node.js dependencies as mentioned in the project documentation from "package.json" by **`npm install`** in the root project folder
 
 4. **Hardware Setup**  
-   Follow the pin diagram to connect the **RC522 RFID module** to the **Arduino UNO**. The pin diagram can be found in the "Pin Diagram" section.
+   Follow the pin diagram to connect the **RC522 RFID module** to the **Arduino UNO**. The pin diagram can be found in the [Pin Diagram](#pin-diagram)
 
 5. **Run the Project**  
-   - Run the **Python script** to handle RFID tag scanning and data interaction with the hardware.
-   - Run the **Node.js server** to handle the web interface and store data in MongoDB.
+   - Run the **`run.py`** to handle RFID tag scanning and data interaction with the hardware.
+   - Run the **`app.js`** to handle the web interface and store data in MongoDB.
 
 ## Pin Diagram
 
